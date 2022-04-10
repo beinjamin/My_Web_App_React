@@ -35,9 +35,9 @@ class Counter extends Component {
             <div className="card-body">
                 {
                     this.state.list.map((v ,index)=>
-                    
+                        <span>{index}
                         <img width={100} src= {this.props.image}/>
-
+                        </span>
                     )
                 }
             </div>
