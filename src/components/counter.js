@@ -9,6 +9,13 @@ class Counter extends Component {
 
         }
     }
+
+
+    computer=(op)=>{
+        this.setState(
+
+        );
+    }
     render() {
         return (
             <div className="card m-3">
