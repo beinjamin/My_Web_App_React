@@ -6,7 +6,7 @@ import Counter from "./components/counter";
 function App() {
   return (
   <div className="m-3">
-    <Counter title="Counter 1"value={1} image="images/profile.png" />
+    <Counter title="Counter 1" value={1} image="images/profile.jpeg" />
   </div>
   );
 }

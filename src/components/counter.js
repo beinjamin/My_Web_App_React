@@ -13,7 +13,7 @@ class Counter extends Component {
                     </strong>
                 </div>
             <div className="card-body">
-                    <img src={this.props.image}/>
+                    <img width={100} src={this.props.image}/>
             </div>
             </div>
                 
