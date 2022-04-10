@@ -8,10 +8,12 @@ class Counter extends Component {
         return (
             <div className="card">
                 <div className="card-header">
-                    {this.props.title}
+                    <strong>
+                    {this.props.title} : {this.props.value}
+                    </strong>
                 </div>
             <div className="card-body">
-                    Content
+                    <img src={this.props.image}/>
             </div>
             </div>
                 
