@@ -3,6 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 class Counter extends Component {
     constructor(props) {
         super(props);
+        this.state={
+            couter:1,
+            
+        }
     }
     render() {
         return (
