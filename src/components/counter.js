@@ -4,17 +4,19 @@ class Counter extends Component {
     constructor(props) {
         super(props);
         this.state={
-            couter:1,
+            counter:1,
             list:[0]
 
         }
     }
 
 
-    computer=(op)=>{
-        this.setState(
+    compute=(op)=>{
+        let c=this.state.counter+1;
+        this.setState( {
+            counter: c
 
-        );
+        });
     }
     render() {
         return (
@@ -24,8 +26,8 @@ class Counter extends Component {
                     {this.props.title} : {this.state.counter}
                     </strong>
                     <div className="m1-auto">
-                        <button onClick={()=>this.computer('+')} className="btn btn-primary m-2">+</button>
-                        <button onClick={()=>this.computer('-')} className="btn btn-primary m-2">-</button>
+                        <button onClick={()=>this.compute('+')} className="btn btn-primary m-2">+</button>
+                        <button onClick={()=>this.compute('-')} className="btn btn-primary m-2">-</button>
                     </div>
                 </div>
             <div className="card-body">
