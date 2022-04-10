@@ -5,7 +5,8 @@ class Counter extends Component {
         super(props);
         this.state={
             couter:1,
-            
+            list:[0]
+
         }
     }
     render() {
@@ -13,8 +14,11 @@ class Counter extends Component {
             <div className="card m-3">
                 <div className="card-header">
                     <strong>
-                    {this.props.title} : {this.props.value}
+                    {this.props.title} : {this.state.counter}
                     </strong>
+                    <div className="m1-auto">
+                        <button className="btn btn-primary">+</button>
+                    </div>
                 </div>
             <div className="card-body">
                     <img width={100} src={this.props.image}/>
