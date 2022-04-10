@@ -17,7 +17,8 @@ class Counter extends Component {
                     {this.props.title} : {this.state.counter}
                     </strong>
                     <div className="m1-auto">
-                        <button className="btn btn-primary">+</button>
+                        <button onClick={()=>this.computer('+')} className="btn btn-primary m-2">+</button>
+                        <button onClick={()=>this.computer('-')} className="btn btn-primary m-2">-</button>
                     </div>
                 </div>
             <div className="card-body">
