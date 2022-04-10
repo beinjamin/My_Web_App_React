@@ -12,7 +12,9 @@ class Counter extends Component {
 
 
     compute=(op)=>{
-        let c=this.state.counter+1;
+        let sign=op==='+'?1:-1;
+        if (this.state.counter==1 && op==='-') sign=0;
+        let c=this.state.counter+sign;
         this.setState( {
             counter:c,
             list:new Array(c).fill(0)
