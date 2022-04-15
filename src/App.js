@@ -6,6 +6,7 @@ import {Router, Switch,Link,BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
+
   <Router>
     <nav className="navbar navbar-expand navbar-brand m-2">
     <ul className="navbar-nav">
@@ -28,6 +29,16 @@ function App() {
 
 
     </nav>
+    <div className='container'>
+    <Switch>
+    <Router path='/counter' component={Counter}></Router>
+    <Router path='/counter' component={Counter}></Router>
+    <Router path='/counter' component={Counter}></Router>
+
+
+    </Switch>
+
+    </div>
     </Router>
   
   );
