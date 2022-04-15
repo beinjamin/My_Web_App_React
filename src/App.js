@@ -8,13 +8,21 @@ function App() {
   return (
   <Router>
     <nav className="navbar">
-    <ul className="">
-      <li></li>
+    <ul className="navbar-nav">
+      <li> 
+      <link to="/home">Home</link> 
+      </li>
+      <li> 
+      <link to="/counter">Counter</link> 
+      </li>
+      <li> 
+      <link to="/about">About</link> 
+      </li>
+      <li> 
+      <link to="/gallery">Gallery</link> 
+      </li>
     </ul>
-      <link to="/home">Home</link>
-      <link to="/counter">Counter</link>
-      <link to="/about">About</link>
-      <link to="/gallery">Gallery</link>
+    
 
 
 
