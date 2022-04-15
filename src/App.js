@@ -6,11 +6,18 @@ import {Router, Switch,Link,BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
-  <div className="m-3">
-    <Counter title="Profile" value={1} image="images/profile.jpeg" />
-    <Counter title="Cup" value={2} image="images/cup.png" />
+  <Router>
+    <nav>
+      <link to="/home">Home</link>
+      <link to="/counter">Home</link>
+      <link to="/about">Home</link>
+      <link to="/gallery">Home</link>
 
-  </div>
+
+
+
+    </nav>
+  </Router>
   );
 }
 
