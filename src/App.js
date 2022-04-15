@@ -7,19 +7,19 @@ import {Router, Switch,Link,BrowserRouter as Router} from 'react-router-dom';
 function App() {
   return (
   <Router>
-    <nav className="navbar">
+    <nav className="navbar navbar-expand navbar-brand m-2">
     <ul className="navbar-nav">
       <li> 
-      <link to="/home">Home</link> 
+      <link className='nav-link' to="/home">Home</link> 
       </li>
       <li> 
-      <link to="/counter">Counter</link> 
+      <link className='nav-link'  to="/counter">Counter</link> 
       </li>
       <li> 
-      <link to="/about">About</link> 
+      <link className='nav-link'  to="/about">About</link> 
       </li>
       <li> 
-      <link to="/gallery">Gallery</link> 
+      <link className='nav-link' to="/gallery">Gallery</link> 
       </li>
     </ul>
     
@@ -28,7 +28,8 @@ function App() {
 
 
     </nav>
-  </Router>
+    </Router>
+  
   );
 }
 
