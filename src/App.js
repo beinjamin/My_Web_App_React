@@ -9,9 +9,9 @@ function App() {
   <Router>
     <nav>
       <link to="/home">Home</link>
-      <link to="/counter">Home</link>
-      <link to="/about">Home</link>
-      <link to="/gallery">Home</link>
+      <link to="/counter">Counter</link>
+      <link to="/about">About</link>
+      <link to="/gallery">Gallery</link>
 
 
 
