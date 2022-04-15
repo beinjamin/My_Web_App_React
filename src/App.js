@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Counter from "./components/counter";
+import {Router, Switch,Link,BrowserRouter as Router} from 'react-router-dom';
 
 
 function App() {
