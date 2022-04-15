@@ -7,7 +7,10 @@ import {Router, Switch,Link,BrowserRouter as Router} from 'react-router-dom';
 function App() {
   return (
   <Router>
-    <nav>
+    <nav className="navbar">
+    <ul className="">
+      <li></li>
+    </ul>
       <link to="/home">Home</link>
       <link to="/counter">Counter</link>
       <link to="/about">About</link>
